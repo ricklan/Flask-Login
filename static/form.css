@@ -1,0 +1,65 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+.formbox{
+  	border: 2px solid black;
+	width: 30%;
+	height: 40%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	overflow: auto;
+  	color: white;
+}
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  border-bottom: 1px solid #4caf50;
+  margin-bottom: 5%;
+}
+.textbox i{
+  position: absolute;
+  float: left;
+  text-align: center;
+  width: 3%;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 1.2vw;
+  text-align: center;
+}
+
+.button{
+  width: 100%;
+  background: none;
+  border: 2px solid #4caf50;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  overflow: auto;
+}
+
+#create_account{
+	width: 102%;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  *{
+    width:100%;
+  }
+}
